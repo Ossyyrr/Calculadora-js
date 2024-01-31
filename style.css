@@ -1,0 +1,39 @@
+body{
+    padding: 1rem;
+}
+button{
+    height: 100px;
+    border: 1px solid #000;
+    background: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+input {
+    margin: 1rem auto;
+    height: 80px;
+    width: 80%;
+    border: 1px solid #000;
+    background: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.keyboard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
